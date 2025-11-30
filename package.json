@@ -1,0 +1,17 @@
+{
+  "name": "dayr-moderation-server",
+  "version": "1.0.0",
+  "description": "Day R Survival Moderation Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
