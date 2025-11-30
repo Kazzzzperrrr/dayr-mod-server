@@ -42,8 +42,8 @@ function sendResponse(res, data) {
     result: 1,
     data: data
   };
-  const encoded = encode(response);
-  res.send(encoded);
+  // Send as plain JSON - the game's parseResponse will handle it
+  res.json(response);
 }
 
 function isModerator(userId) {
